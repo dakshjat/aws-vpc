@@ -1,0 +1,8 @@
+environment                = "sandbox"
+vpc_cidr_block             = "172.17.0.0/16"
+public_subnet_1_cidr_block = "172.17.0.0/22"
+public_subnet_2_cidr_block = "172.17.4.0/22"
+app_subnet_1_cidr_block    = "172.17.8.0/22"
+app_subnet_2_cidr_block    = "172.17.12.0/22"
+db_subnet_1_cidr_block     = "172.17.16.0/22"
+db_subnet_2_cidr_block     = "172.17.20.0/22"
