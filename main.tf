@@ -270,7 +270,7 @@ module "route_nat_gw_app_subnet_1" {
   
   route_table_id         = module.app_subnet_rt_1.id
   destination_cidr_block = "0.0.0.0/0"
-  nat_gateway_id         = module.nat_gw_2.id
+  nat_gateway_id         = module.nat_gw_1.id
 }
 
 module "route_nat_gw_app_subnet_2" {
